@@ -28,39 +28,137 @@
 
 <body>
 
+  <!--Inicio - Navbar) -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+      <a class="navbar-brand" href="index.html"><img src="imagens/spotify.svg" width="142" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Premium<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ajuda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Baixar</a>
+          </li>
+          <li class="nav-item divisor">
+          </li>
 
-  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-warning">
-
-
-    <a class="navbar-brand" href="index.html"><img src="imagens/spotify.svg" width="142" alt=""></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-
-    <div class="collapse navbar-collapse fixed-top" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Premium<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Ajuda</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Baixar</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Inscrever-se</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Entrar</a>
-        </li>
-      </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inscrever-se</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Entrar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     </div>
-  </nav>
-  </div>
+  </header>
+  <!--Fim - Navbar) -->
+
+  <!--Inicio - Seção de Conteúdos) -->
+  <section id="home" class="d-flex">
+    <!--Home -->
+    <div class="container align-self-center">
+      <div class="row">
+        <div class="col-md-12 capa">
+
+          <h1> Música para todos </h1>
+          <a href="" class="btn btn-lg btn-custom btn-roxo">Aproveite o Spotify free</a>
+          <a href="" class="btn btn-lg btn-custom btn-branco">Obter Spotify premium</a>
+
+        </div>
+      </div>
+      <!--/row -->
+    </div>
+    <!--/Container -->
+  </section>
+  <!--/Home -->
+
+  <section id="servicos">
+    <!--Seção  -->
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6">
+
+          <div class="row albuns">
+
+            <div class="col-md-6">
+              <img src="imagens/img1.jpg" alt="" class="img-fluid d-none d-md-block">
+            </div>
+            <div class="col-md-6">
+              <img src="imagens/img2.jpg" alt="" class="img-fluid d-none d-md-block">
+            </div>
+          </div>
+
+          <div class="row albuns">
+            <div class="col-md-6">
+              <img src="imagens/img3.jpg" alt="" class="img-fluid d-none d-md-block">
+            </div>
+            <div class="col-md-6">
+              <img src="imagens/img4.jpg" alt="" class="img-fluid d-none d-md-block">
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <h2>O que o Spotify tem?</h2>
+
+          <h3>Músicas</h3>
+          <p> O Spotify tem milhões de músicas. Escute seus sons favoritos,
+            descubra novas músicas e reúna seus favoritos em um só lugar.
+          </p>
+
+          <h3>Playlists</h3>
+          <p> no spotify você encontra uma playlist para cada momento. Todas feitas por fanáticos e especialistas da
+            música.</p>
+
+          <h3>Novos Lançamentos</h3>
+          <p> Escute os novos lançamentos de singles e álbuns da semana e veja o que está bombando no Top 50.</p>
+
+        </div>
+  </section>
+
+
+  <section>
+    <!--Inicio Seção Fácil-->
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4" id="navegacao">
+          <h2>Fácil</h2>
+
+          <h3>Buscar</h3>
+          <p>Já sabe o que escutar? É só procurar e apertar o play.</p>
+
+          <h3>Navegar</h3>
+          <p>Veja os novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.</p>
+
+          <h3>Descobrir</h3>
+          <p>Curta músicas novas toda segunda-feira com uma playlist personalizada para você. Ou relaxae e curta uma das
+            rádios.</p>
+        </div>
+
+        <div class="col-md-8" id="imagemiphone">
+          <img src="imagens/iphone1.png" alt="">
+          <img src="imagens/iphone2.png" alt="">
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </section>
+  <!--Fim - Seção de Conteúdos) -->
 
   <!-- JavaScript (Opcional) -->
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
@@ -74,4 +172,5 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
 </body>
+
 </html>

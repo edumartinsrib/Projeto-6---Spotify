@@ -16,8 +16,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 #home {
   height: 100%;
 }
@@ -86,14 +84,13 @@ nav.navbar-transparente {
 }
 
 #rodape {
-background-color: black;
-padding: 50px 0px 20px 0px;
-position: relative;
-
+  background-color: black;
+  padding: 50px 0px 20px 0px;
+  position: relative;
 }
 
 footer h4 {
-  color:#919496;
+  color: #919496;
   font-size: 0.8em;
   text-transform: uppercase;
 }
@@ -106,53 +103,55 @@ footer .navbar-nav a {
 footer .navbar-nav a:hover {
   color: #9bf0e1;
   text-decoration: none;
-   
 }
 
 footer ul {
   list-style: none;
-   
 }
 
 footer ul li {
   float: right;
   margin: 0px 5px;
-   
 }
 
 #servicos h2 {
-  color:#7c25f8 ;
+  color: #7c25f8;
 }
 
 #servicos h3 {
-  color:#7c25f8 ;
+  color: #7c25f8;
 }
 
-#recursos  {
+#recursos {
   padding-top: 20px;
   padding-bottom: 20px;
-  }
+}
 #recursos h2 {
-color: white
+  color: white;
 }
 
-#recursos h3{
-  color: aquamarine
+#recursos h3 {
+  color: aquamarine;
 }
 
-#recursos p{
-  color: white
+#recursos p {
+  color: white;
 }
 
 .rotacionar {
--ms-transform: rotate(30deg);
--webkit-transform: rotate(30deg);
-transform: rotate(30deg);
-padding-left:80px;
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  padding-left: 80px;
 }
 
 .albuns {
-padding: 10px 0;
+  padding: 10px 0;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5%;
 }
 
 /*-------------------- Tipografia ---------------*/
@@ -163,18 +162,17 @@ h1 {
   color: white;
 }
 
-h2{
+h2 {
   font-size: 3em;
   font-weight: 700;
   letter-spacing: -0.04em;
 }
 
-h3{
+h3 {
   font-size: 2em;
   font-weight: 700;
   letter-spacing: -0.04em;
 }
-
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
